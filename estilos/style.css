@@ -190,7 +190,18 @@ article h2 {
   border-radius: 50px;
 }
 
+#formacao-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
 
+#formacao-container .curso {
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque);
+  padding-left: 15px;
+}
 
 
 
