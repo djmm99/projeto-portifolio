@@ -58,6 +58,7 @@ nav#menu ul{
 nav#menu a {
   text-decoration: none;
   color: var(--texto-inverso);
+  font-size: 1.2em;
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
@@ -136,7 +137,7 @@ article {
 
 article h2 {
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .video-container {
@@ -200,12 +201,26 @@ article h2 {
   background-color: var(--fundo-principal);
   border-radius: 8px;
   border-left: 5px solid var(--destaque);
-  padding-left: 15px;
+  padding-left: 10px;
+  transition: border-width .3s, border-color .5s;
 }
 
+#formacao-container .curso:hover {
+  border-left-width: 15px;
+  cursor: pointer;
+  border-color: var(--destaque-inverso);
+}
 
+#formacao-container .periodo {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: var(--texto);
+}
 
-
+#formacao-container .instituicao {
+  color: var(--destaque-inverso);
+  font-size: 1.1em;
+}
 
 
 
